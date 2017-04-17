@@ -9,18 +9,18 @@
     font-family: 'Anaheim';
     font-size: 18px;
     color: black;
-    padding-left:300px;
+    padding-left:200px;
     padding-right:650px;
     text-align: left;
     display: block;
 }
 
 .contact {
-    padding-top: 300px;
+    padding-top: 100px;
     font-family: 'Anaheim';
     font-size: 18px;
     color: black;
-    margin-left: 950px;
+    margin-left: 1150px;
     text-align: left;
     border-left-style: solid;
     border-left-color: #2D2E31;
@@ -38,7 +38,3 @@
 .email:hover { 
     background-color: lightgrey;
             }
-.a {
-    text-decoration: inherit!important;
-    
-}
