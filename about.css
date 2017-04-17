@@ -10,7 +10,7 @@
     font-size: 18px;
     color: black;
     padding-left:300px;
-    padding-right:650px;
+    padding-right:750px;
     text-align: left;
     display: block;
 }
@@ -20,7 +20,7 @@
     font-family: 'Anaheim';
     font-size: 18px;
     color: black;
-    margin-left: 950px;
+    margin-left: 1150px;
     text-align: left;
     border-left-style: solid;
     border-left-color: #2D2E31;
@@ -38,7 +38,3 @@
 .email:hover { 
     background-color: lightgrey;
             }
-.a {
-    text-decoration: inherit!important;
-    
-}
