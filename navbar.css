@@ -5,7 +5,7 @@
 	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
 	position: relative; 
 	background-color: white;
-    font-family: 'Chathura'
+    font-family: 'Chathura'; 
 	}
 
 .navbar	{
@@ -13,59 +13,98 @@
         padding: 0;
 	margin: 0;
 	position: absolute; /* Ensures that the menu doesn’t affect other elements */
-    border-bottom-color: whitesmoke;
-    border-bottom-width: thin
+    display: inline-block
 	}
 
 .navbar li	{
-			height: auto;
+			height: 60px;
 			width: 125px;  /* Each menu item is 150px wide */
 			float: left;  /* This lines up the menu items horizontally */
 			text-align: center;  /* All text is placed in the center of the box */
 			list-style: none;  /* Removes the default styling (bullets) for the list */
 			font-family: 'Chathura';  
-            font-size: 30px;
-			padding-right: 10px;
-			margin-top: 0px;
+            font-size: 40px;
+			padding-right: 0px;
+			margin-top: 14px;
 			background-color: white;
+            border-bottom-color: #2D2E31;
+            border-bottom-width: thick;
+            border-bottom-style: solid;
+            padding-bottom: 14px;
             }
 .navbar a	{						
-		padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		padding: 0px;  /* Adds a padding on the top and bottom so the text appears centered vertically */
 		text-decoration: none;  /* Removes the default hyperlink styling. */
 		color: black; /* Text color is black */
 		display: block;
-        margin-top: 12px
+        margin-top: 10px;
 		}
-.navbar li:hover, a:hover {background-color: lightgrey;} 
+.navbar a:hover {background-color: lightgrey;
+                    height: 65px;
+                    border-bottom-color: white;
+                    border-bottom-width: 5px;
+                    border-bottom-style: solid;
+                } 
 
 .navbar li ul 	{
 		display: none;  /* Hides the drop-down menu */
-		height: auto;									
-		margin: 0; /* Aligns drop-down box underneath the menu item */
-		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		height: 60px;									
+		margin: 0px; /* Aligns drop-down box underneath the menu item */
+		padding: 0px; /* Aligns drop-down box underneath the menu item */	
 		}				 
 .navbar li:hover ul 	{
                         display: block; /* Displays the drop-down box when the menu item is hovered over */
                         }
-.navbar li ul li {background-color: darkgray;} 
-.navbar li ul li a 	{
-		
-		}
-				
-.navbar li ul li a:hover	{background-color: lightgray;}
+.navbar li ul li {background-color: darkgray;
+                border-bottom: none !important;
+                margin-top: 0px !important;
+                } 
+
 /*start of my code and/or name and logo code*/
 
-.name {
-  float: left;
-  font-family: 'technic';  
-  font-size: 32px;
-  color: black;
-  margin-top: 35px;
-}
+.nohover {
+    background-color: white;
+    font-size: 60px !important ;
+    margin-top: 9px !important ;
+    text-align: left !important ;
+    width: 355px !important;
+    border-bottom-color: lightgray !important;
+    border-bottom-style: solid;
+    border-bottom-width: .01px !important;
+    padding: 0px !improtant;
+    padding-bottom: 22px !important;
+    padding-left: 5px !important;
+    margin-right: 0px !important;
+} 
+
 
 .logo {
     float:left;
     width: 50px;
-    height: 100px;
-    margin-top: 12px
+    height: 65px;
+    margin-right: 12px;
+    margin-left: 22px;
+    margin-top: 5px !important;
+    padding-top: 2px !important;
 }
+
+.divide-left{
+			width: 33px !important;  /* Each menu item is 150px wide */
+			padding: 0px !important;
+			margin-top: 25px !important;
+			background-color: white !important;
+            padding-bottom: 3px !important; 
+            display: block !important;
+            padding-right: 3px !important;
+}
+.divide-right{
+			width: 30px !important;  /* Each menu item is 150px wide */
+			padding: 0px !important;
+			margin-top: 25px !important;
+			background-color: white !important;
+            padding-bottom: 3px !important; 
+            display: block !important;
+}
+
+
+  

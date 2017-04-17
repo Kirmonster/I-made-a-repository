@@ -1,0 +1,44 @@
+.about {
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    padding-top: 200px;
+}
+
+.small{
+    font-family: 'Anaheim';
+    font-size: 18px;
+    color: black;
+    padding-left:300px;
+    padding-right:650px;
+    text-align: left;
+    display: block;
+}
+
+.contact {
+    padding-top: 300px;
+    font-family: 'Anaheim';
+    font-size: 18px;
+    color: black;
+    margin-left: 950px;
+    text-align: left;
+    border-left-style: solid;
+    border-left-color: #2D2E31;
+    border-left-width: medium;
+    padding-left: 40px;
+    display: block;
+}
+
+.header {
+    font-family: 'Chathura';
+    font-size: 40px !important;
+}
+
+
+.email:hover { 
+    background-color: lightgrey;
+            }
+.a {
+    text-decoration: inherit!important;
+    
+}
